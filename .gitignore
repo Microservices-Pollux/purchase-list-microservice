@@ -3,3 +3,49 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+# sbt build directories
+target/
+project/target/
+.bsp/
+
+
+# Scala compilation artifacts
+**/*.class
+**/*.jar
+**/*.war
+**/*.zip
+**/*.gz
+**/*. সভ
+**/*.dll
+**/*.so
+**/*.dylib
+
+
+# IDE specific files and build server/tooling
+.idea/          # IntelliJ IDEA
+.vscode/        # VS Code
+.bloop/         # Bloop build server files
+.metals/        # Metals language server files
+.scala-build/   # scala-cli or similar tool files
+*.iml           # IntelliJ IDEA module files
+.DS_Store       # macOS
+
+# Generated documentation
+doc/
+
+# Log files
+*.log
+
+# Configuration files (consider if you want to ignore sensitive info)
+# *.conf
+# *.properties
+# *.xml
+
+# Temporary files
+*~
+#*#
+.#*
+
+# macOS directory services files
+.DS_Store
+
